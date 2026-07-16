@@ -6,11 +6,11 @@
     <title>Form</title>
 </head>
 <body>
-    <form action="">
+    <form method="get">
         <fieldset>
             <legend>user details</legend>
             <label for="name">Enter your name: </label>
-            <input type="text" name="username" id="name"/>
+            <input type="text" name="username" id="name" autofocus/>
             <br/>
             <label for="address">Enter your address:</label>
             <textarea name="useraddress" id="address" rows="10" cols="15"></textarea>
@@ -25,23 +25,24 @@
             <br/>
             select gender: <br>
             <label for="male">male</label>
-            <input type="radio" id="male" name="gender"/>
+            <input type="radio" id="male" name="gender" value="male"/>
             <br>
             <label for="female">female</label>
-            <input type="radio" id="female" name="gender"/>
+            <input type="radio" id="female" name="gender" value="female"/>
             <br>
 
             select favorate movie: <br>
             <label for="avengers">avengers</label>
-            <input type="checkbox" name="avengers" id="avenger">
+            <input type="checkbox" name="avengers" id="avenger" value="address">
             <br>
             <label for="thor">thor</label>
-            <input type="checkbox" name="thor" id="thor">
+            <input type="checkbox" name="thor" id="thor" value="thor">
             <br>
             <label for="tonystark">tony stark</label>
-            <input type="checkbox" name="tonystark" id="tonystark">
+            <input type="checkbox" name="tonystark" id="tonystark" value="tonystark">
 
             <br>
+            <input type="number" min="0" max="100">
             <input type="submit">
         </fieldset>
         
