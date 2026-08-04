@@ -1,0 +1,36 @@
+body{
+    background-color: beige;
+}
+div{
+    font-size: x-large;
+    text-align: center;
+}
+
+div::after{
+    content: 'welcome to media query';
+}
+
+@media (max-width: 400px) {
+    body{
+        background-color: white;
+    }
+    div::after{
+        content: 'for phone';
+    }
+}
+@media (420px <= width <= 850px) {
+    body{
+        background-color: black;
+    }
+    div::after{
+        content: '400 to 800';
+    }
+}
+@media (min-width: 900px) {
+    body{
+        background-color: lightsteelblue;
+    }
+    div::after{
+        content: 'for laptop screen';
+    }
+}

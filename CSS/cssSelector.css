@@ -1,0 +1,13 @@
+main p{
+    background-color: black;
+    color: red;
+}
+
+h1 > p{
+    color: blue;
+}
+
+[target="_blank"]{
+    background-color: aqua;
+    color: rgb(215, 253, 0);
+}
