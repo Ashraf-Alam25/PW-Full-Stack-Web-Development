@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #d6dcc1;
+}
+nav{
+    padding: 20px 10%;
+    height: 15vh;
+    
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}    
+nav ul li{
+    list-style: none;
+    margin-right: 5%;
+}
+a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+}
+nav ul li img{
+    width: 100px;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.leftmain{
+    width: 40%;
+} 
+.leftmain h1{
+    font-size: 60px;
+}
+.leftmain p{
+    margin: 5% 0 ;
+}
+
+.leftmain button{
+    padding: 15px 20px;
+    color: white;
+    background-color: green;
+    font-size: 15px;
+    border-radius: 10px;
+    font-weight: 700px;
+    border: none;
+}
+.leftmain button:hover{
+    background-color: white;
+    color: green;
+}
+.rightmain{
+    width: 38%;
+}
+.rightmain div img{
+}
