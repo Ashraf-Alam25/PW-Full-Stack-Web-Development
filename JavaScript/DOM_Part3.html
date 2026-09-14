@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom part-3</title>
+</head>
+<body>
+    <h1>hello mr - Ashraf</h1>
+    <p id="js">mr Tam</p>
+    <button onclick="hey()" id="bt"> Submit</button>
+    <!-- java scipt  -->
+    <script>
+        document.addEventListener("dblclick",hello);
+        function hello(){
+            document.getElementById("js").innerText = "hola ka tola";
+        }
+        function hey(){
+            document.getElementById("bt").innerText = "Namaste sir";
+            document.getElementById("bt").style.color = "red";
+            document.getElementById("bt").style.backgroundColor = "black";
+            document.getElementById("bt").style.padding = "16px";
+            document.getElementById("bt").style.border = "2px solid green";
+        }
+    </script>
+</body>
+</html>
