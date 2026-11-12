@@ -1,0 +1,4 @@
+let arr = [10,20,30,40,50];
+arr.forEach(function (element, index, arr){
+    console.log(index, element, arr);
+});
